@@ -3,7 +3,7 @@
 
         string GetFood();
 
-        int CookTime { get; } //minutes
+        int CookTime { get; }
 
     }
 }
