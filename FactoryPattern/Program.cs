@@ -1,13 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace FactoryPattern {
     class Program {
         static void Main(string[] args) {
-            Console.WriteLine("test");
+            var breakfast = BreakfastFactory.CreateBreakfast();
+
+            Console.WriteLine($"Type of breakfast = {breakfast.GetFood()}, Cook time = {breakfast.CookTime}");
+            Console.ReadKey();
         }
     }
 }
