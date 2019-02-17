@@ -44,7 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BreakfastFactory.cs" />
-    <Compile Include="Breakfast\iBreakfast.cs" />
+    <Compile Include="Breakfast\IBreakfast.cs" />
     <Compile Include="Breakfast\Oatmeal.cs" />
     <Compile Include="Breakfast\Pancakes.cs" />
     <Compile Include="Program.cs" />

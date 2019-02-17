@@ -4,7 +4,7 @@ using FactoryPattern.Breakfast;
 namespace FactoryPattern {
     public static class BreakfastFactory {
 
-        public static iBreakfast CreateBreakfast() {
+        public static IBreakfast CreateBreakfast() {
             DayOfWeek today = getDayOfWeek();
 
             switch(today) {

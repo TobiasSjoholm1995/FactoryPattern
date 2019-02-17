@@ -1,5 +1,5 @@
 ﻿namespace FactoryPattern.Breakfast {
-    public interface iBreakfast {
+    public interface IBreakfast {
 
         string GetFood();
 

@@ -1,7 +1,7 @@
 ﻿using System;
 
 namespace FactoryPattern.Breakfast {
-    public class Pancakes : iBreakfast {
+    public class Pancakes : IBreakfast {
         public int CookTime { get; }
 
         public Pancakes() {
