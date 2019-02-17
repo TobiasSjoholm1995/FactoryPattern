@@ -4,5 +4,6 @@
         string GetFood();
 
         int CookTime { get; }
+
     }
 }
